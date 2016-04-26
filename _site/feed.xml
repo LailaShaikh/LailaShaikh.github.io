@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.3">Jekyll</generator><link href="//lailashaikh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="//lailashaikh.github.io/" rel="alternate" type="text/html" /><updated>2016-04-26T15:40:42+00:00</updated><id>//lailashaikh.github.io/</id><title>Laila Shaikh</title><subtitle>web developer, Programmer</subtitle><entry><title>Resolving mongo error</title><link href="//lailashaikh.github.io/mongo-error/" rel="alternate" type="text/html" title="Resolving mongo error" /><published>2016-04-26T00:00:00+00:00</published><updated>2016-04-26T00:00:00+00:00</updated><id>//lailashaikh.github.io/mongo-error</id><content type="html" xml:base="//lailashaikh.github.io/mongo-error/">&lt;p&gt;#Resolving Error In Mongo DB
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.3">Jekyll</generator><link href="//lailashaikh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="//lailashaikh.github.io/" rel="alternate" type="text/html" /><updated>2016-04-26T15:56:12+00:00</updated><id>//lailashaikh.github.io/</id><title>Laila Shaikh</title><subtitle>web developer, Programmer</subtitle><entry><title>Resolving mongo error</title><link href="//lailashaikh.github.io/mongo-error/" rel="alternate" type="text/html" title="Resolving mongo error" /><published>2016-04-26T00:00:00+00:00</published><updated>2016-04-26T00:00:00+00:00</updated><id>//lailashaikh.github.io/mongo-error</id><content type="html" xml:base="//lailashaikh.github.io/mongo-error/">&lt;p&gt;#Resolving Error In Mongo DB
 &lt;strong&gt;While working on mongodb, most of the times I came through an error while starting the server by using the command:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       ./mongod The error was :
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       ./mongod
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;//lailashaikh.github.io/assets/img/lockFile.PNG&quot; alt=&quot;Unclean shutdown detected&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The error was:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//lailashaikh.github.io/assets/img/MongoError1.PNG&quot; alt=&quot;Unclean shutdown detected&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;After researching on internet I came with the reason and solution of it:&lt;/p&gt;
 
@@ -16,7 +18,7 @@ Its because you did not the shutdown the server properly, therefore it got crash
 The most easiest way to repair is to look for the lockfile which would have been created resultantly, manually delete it. 
 and you are done!!!&lt;/p&gt;
 
-&lt;p&gt;![Unclean shutdown detected] (/image/porfolio/MongoError1.PNG)&lt;/p&gt;</content><category term="sample post" /><category term="images" /><category term="test" /><summary>server crash in mongo</summary></entry><entry><title>A Post with a Video</title><link href="//lailashaikh.github.io/video-post/" rel="alternate" type="text/html" title="A Post with a Video" /><published>2016-03-15T00:00:00+00:00</published><updated>2016-03-15T00:00:00+00:00</updated><id>//lailashaikh.github.io/video-post</id><content type="html" xml:base="//lailashaikh.github.io/video-post/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&quot;//lailashaikh.github.io/assets/img/lockFile.PNG&quot; alt=&quot;Unclean shutdown detected&quot; /&gt;&lt;/p&gt;</content><category term="sample post" /><category term="images" /><category term="test" /><summary>server crash in mongo</summary></entry><entry><title>A Post with a Video</title><link href="//lailashaikh.github.io/video-post/" rel="alternate" type="text/html" title="A Post with a Video" /><published>2016-03-15T00:00:00+00:00</published><updated>2016-03-15T00:00:00+00:00</updated><id>//lailashaikh.github.io/video-post</id><content type="html" xml:base="//lailashaikh.github.io/video-post/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
 
 &lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
 

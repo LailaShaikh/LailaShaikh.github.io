@@ -10,7 +10,9 @@ tags: [sample post, images, test]
 **While working on mongodb, most of the times I came through an error while starting the server by using the command:**
            
            ./mongod
-The error was :
+
+
+**The error was:**
    
 ![Unclean shutdown detected](//lailashaikh.github.io/assets/img/MongoError1.PNG)
 
