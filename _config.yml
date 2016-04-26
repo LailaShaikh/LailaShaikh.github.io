@@ -1,13 +1,13 @@
 # Site
 title:              Moon
 bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+description:        'web developer, Programmer'
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 locale:             en_US
-url:                http://taylantatli.me/Moon
+url:                lailashaikh.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -37,13 +37,13 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           username
-github:             username
+#twitter:            username
+facebook:           laila.jan.92351
+github:             LailaShaikh
 #stackoverflow:      123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:           username
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:             username
 #tumblr:             username
 #pinterest:         username
