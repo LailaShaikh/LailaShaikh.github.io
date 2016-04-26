@@ -7,12 +7,12 @@ tags: [sample post, images, test]
 ---
 
 #Resolving Error In Mongo DB
-**While working on mongodb, most of the times I came through an error while starting the server by using the command: **
+**While working on mongodb, most of the times I came through an error while starting the server by using the command:**
            
            ./mongod
 The error was :
    
-![Unclean shutdown detected](/image/porfolio/lockFile.PNG)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/lockFile.PNG)
 
 After researching on internet I came with the reason and solution of it:
 
