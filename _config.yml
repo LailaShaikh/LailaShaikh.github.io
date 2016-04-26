@@ -7,7 +7,7 @@ words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 locale:             en_US
-url:                lailashaikh.github.io
+url:                http://lailashaikh.github.io/Moon
 
 # Jekyll
 permalink:          /:title/
