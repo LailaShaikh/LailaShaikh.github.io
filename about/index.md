@@ -5,7 +5,7 @@ tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><a href="lailashaikh.github.io"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
 ## Features
 * Minimal, you can focus on your content
@@ -27,7 +27,7 @@ date: 2016-03-21
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+See a [live version of Moon](http://lailashaikh.github.io) hosted on GitHub.
 
 ## Getting Started
 
