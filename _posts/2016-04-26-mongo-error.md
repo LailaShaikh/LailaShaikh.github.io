@@ -12,7 +12,7 @@ tags: [sample post, images, test]
            ./mongod
 The error was :
    
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/lockFile.PNG)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/MongoError1.PNG)
 
 After researching on internet I came with the reason and solution of it:
 
@@ -23,6 +23,6 @@ Its because you did not the shutdown the server properly, therefore it got crash
 The most easiest way to repair is to look for the lockfile which would have been created resultantly, manually delete it. 
 and you are done!!!
 
-![Unclean shutdown detected] (/image/porfolio/MongoError1.PNG)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/lockFile.PNG)
 
 
