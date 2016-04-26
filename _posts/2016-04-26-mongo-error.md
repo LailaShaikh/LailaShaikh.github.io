@@ -6,7 +6,7 @@ excerpt: "server crash in mongo"
 tags: [sample post, images, test]
 ---
 
-#Resolving Error In Mongo DB
+
 **While working on mongodb, most of the times I came through an error while starting the server by using the command:**
            
            ./mongod
