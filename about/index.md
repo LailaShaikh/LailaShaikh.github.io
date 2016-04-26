@@ -5,4 +5,4 @@ tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 ---
     
-**I am a junior in University of Mary Washington**
+**I am a junior at the University of Mary Washington**
