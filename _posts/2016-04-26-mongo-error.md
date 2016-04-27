@@ -3,7 +3,7 @@ layout: post
 title: "Resolving mongo error"
 date: 2016-04-26
 excerpt: "server crash in mongo"
-tags: [sample post, images, test]
+
 ---
 
 
