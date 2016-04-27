@@ -11,6 +11,11 @@ sitemap: false
  *
 */
 
+html {
+  font-size: 100%;
+}
+
+
 // Partials
 @import "variables";
 @import "mixins";
