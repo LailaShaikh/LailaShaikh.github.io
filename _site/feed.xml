@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.3">Jekyll</generator><link href="//lailashaikh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="//lailashaikh.github.io/" rel="alternate" type="text/html" /><updated>2016-04-27T05:26:07+00:00</updated><id>//lailashaikh.github.io/</id><title>Laila Shaikh</title><subtitle>web developer, Programmer</subtitle><entry><title>Resolving mongo error</title><link href="//lailashaikh.github.io/mongo-error/" rel="alternate" type="text/html" title="Resolving mongo error" /><published>2016-04-26T00:00:00+00:00</published><updated>2016-04-26T00:00:00+00:00</updated><id>//lailashaikh.github.io/mongo-error</id><content type="html" xml:base="//lailashaikh.github.io/mongo-error/">&lt;p&gt;&lt;strong&gt;While working on mongodb, most of the times I came through an error while starting the server by using the command:&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.3">Jekyll</generator><link href="//lailashaikh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="//lailashaikh.github.io/" rel="alternate" type="text/html" /><updated>2016-04-27T14:08:26+00:00</updated><id>//lailashaikh.github.io/</id><title>Laila Shaikh</title><subtitle>web developer, Programmer</subtitle><entry><title>Example of Services in Angular Javascript</title><link href="//lailashaikh.github.io/Services/" rel="alternate" type="text/html" title="Example of Services in Angular Javascript" /><published>2016-04-27T00:00:00+00:00</published><updated>2016-04-27T00:00:00+00:00</updated><id>//lailashaikh.github.io/Services</id><content type="html" xml:base="//lailashaikh.github.io/Services/">&lt;p&gt;&lt;span style=&quot;font-family: Babas; font-size: 2em;&quot;&gt;
+&lt;strong&gt;Services provide a way to make the data global around the app, share data, and functionality . The services we create are singletons that can be injected into controllers and other services.&lt;/strong&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-family: Babas; font-size: 2em;&quot;&gt;
+Now to understand the use of services in angular javascript, I will try to go through some other concepts aswell : 
+After working with angular Javascipt, I discovered that we can also make single page applications in angular javascript.
+We can create different views in it rather than pages and we switch between views instead of pages.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-family: Babas; font-size: 2em;&quot;&gt;
+&lt;strong&gt;In this example I will demonstrate how to use services:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;we will have four files:
+* Index.html
+* LoginPage.html
+* 2ndPage.html
+* Controller.js&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In Index.html :&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;we will declare angular app&lt;/li&gt;
+  &lt;li&gt;we will import libraries&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;we will create ngView which is a directive that complements the $route service by including the rendered template of the current route into   the main layout (index.html) file. Every time the current route changes, the included view changes with it according to the configuration of   the $route service.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Sample Code:&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&amp;lt;!doctype html&amp;gt;
+    &amp;lt;html ng-app=&quot;angularApp&quot;&amp;gt;
+        &amp;lt;head&amp;gt;&lt;link href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+            &lt;script src=&quot;//code.angularjs.org/1.3.0-rc.1/angular.min.js&quot;&gt;
+            &lt;/script&gt;
+            &lt;script src=&quot;//code.angularjs.org/1.3.0-rc.1/angular-route.min.js&quot;&gt;&lt;/script&gt;
+            &lt;script src=&quot;controller.js&quot;&gt;&lt;/script&gt;
+            &lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js&quot;&gt;&lt;/script&gt;
+        &amp;lt;/head&amp;gt;
+        &amp;lt;body&amp;gt;
+            &amp;lt;div ng-view&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/body&amp;gt;
+    &amp;lt;/html&amp;gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In LoginPage.html:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We have two fields:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;username&lt;/li&gt;
+  &lt;li&gt;password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;as in the figure :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div ng-controller=&quot;loginController&quot;&amp;gt;
+    &amp;lt;!--Sign in form--&amp;gt;
+    &amp;lt;form class=&quot;form-signin&quot; ng-submit=setName()&amp;gt;
+    &amp;lt;/br&amp;gt;
+        &amp;lt;input type=&quot;text&quot; ng-model=&quot;name&quot; name=&quot;LoginUser&quot; class=&quot;form-control&quot; placeholder=&quot;Username&quot; id=&quot;submitSignin&quot; required autofocus&amp;gt;    
+        &amp;lt;input type=&quot;password&quot; ng-model=&quot;PasswordL&quot; name=&quot;LoginPass&quot; class=&quot;form-control&quot; placeholder=&quot;Password&quot; id=&quot;submitSignin&quot; required&amp;gt;
+        &amp;lt;button class=&quot;btn btn-lg btn-primary btn-block&quot; type=&quot;submit&quot; name=&quot;submit&quot; id=&quot;submitSignin&quot; value=&quot;login&quot;&amp;gt;Sign in&amp;lt;/button&amp;gt;
+    &amp;lt;/form&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this div, we have intialized the name of controller, so that as soon as user click submit, It will be linked to ‘loginController’ Controller ,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In 2ndPage.html:
+whatever you insert into the username field that should appear in this page, 
+this div will be directed to the ChatController&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In Controller.js&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We will  make a module 
+          var angularApp = angular.module(‘angularApp’, [‘ngRoute’])&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+
+    &lt;p&gt;angularApp.config(function ($routeProvider) {
+    $routeProvider
+        .when(“/”,
+            {templateUrl: “LoginPage.html”,controller: “loginController”  })
+        .when(“/2ndPage”,
+            {templateUrl: “2ndPage.html”, controller: “ChatController” });      &lt;br /&gt;
+    });&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;we will make a service: 
+         angularApp.service(‘factory’, function () {
+             this.loginTrue = “”;
+         });&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;we will make controllers
+ angularApp.controller(‘loginController’,function($scope , $location , factory , $route)
+ {
+     $scope.name=’’;
+     $scope.PasswordL=’’;&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; $scope.setName=function setName(){
+       factory.loginTrue=$scope.name;
+         console.log(factory.loginTrue);
+         $location.path(&quot;/2ndPage&quot;);
+         $route.reload();
+ };  });
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;angularApp.controller(‘ChatController’, function ($scope, factory , $location) {
+     console.log(factory.loginTrue);
+     $scope.loginUser=factory.loginTrue;
+     $scope.$apply();
+ });&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So basically we have created a service here to make a variable global, 
+1. In the first Controller that is the loginController, We are grabbing the username the user inserts in the login Page
+2. storing the value of that username in to the variable we have declared in the service to make the value global
+3. Using that value that we stored in the service, we will use it in another controller and ultimately in another view.&lt;/p&gt;</content><category term="sample post" /><category term="images" /><category term="test" /><summary>MathJax Example for Moon Jekyll Theme.</summary></entry><entry><title>Resolving mongo error</title><link href="//lailashaikh.github.io/mongo-error/" rel="alternate" type="text/html" title="Resolving mongo error" /><published>2016-04-26T00:00:00+00:00</published><updated>2016-04-26T00:00:00+00:00</updated><id>//lailashaikh.github.io/mongo-error</id><content type="html" xml:base="//lailashaikh.github.io/mongo-error/">&lt;p&gt;&lt;strong&gt;While working on mongodb, most of the times I came through an error while starting the server by using the command:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       ./mongod
 &lt;/code&gt;&lt;/pre&gt;
@@ -17,7 +147,7 @@ Its because you did not the shutdown the server properly, therefore it got crash
 The most easiest way to repair is to look for the lockfile which would have been created resultantly, manually delete it. 
 and you are done!!!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//lailashaikh.github.io/assets/img/lockFile.PNG&quot; alt=&quot;Unclean shutdown detected&quot; /&gt;&lt;/p&gt;</content><category term="sample post" /><category term="images" /><category term="test" /><summary>server crash in mongo</summary></entry><entry><title>Example of Services in Angular Javascript</title><link href="//lailashaikh.github.io/Services/" rel="alternate" type="text/html" title="Example of Services in Angular Javascript" /><published>2016-04-25T00:00:00+00:00</published><updated>2016-04-25T00:00:00+00:00</updated><id>//lailashaikh.github.io/Services</id><content type="html" xml:base="//lailashaikh.github.io/Services/"></content><category term="sample post" /><category term="images" /><category term="test" /><summary>server crash in mongo</summary></entry><entry><title>A Post with a Video</title><link href="//lailashaikh.github.io/video-post/" rel="alternate" type="text/html" title="A Post with a Video" /><published>2016-03-15T00:00:00+00:00</published><updated>2016-03-15T00:00:00+00:00</updated><id>//lailashaikh.github.io/video-post</id><content type="html" xml:base="//lailashaikh.github.io/video-post/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&quot;//lailashaikh.github.io/assets/img/lockFile.PNG&quot; alt=&quot;Unclean shutdown detected&quot; /&gt;&lt;/p&gt;</content><category term="sample post" /><category term="images" /><category term="test" /><summary>server crash in mongo</summary></entry><entry><title>A Post with a Video</title><link href="//lailashaikh.github.io/video-post/" rel="alternate" type="text/html" title="A Post with a Video" /><published>2016-03-15T00:00:00+00:00</published><updated>2016-03-15T00:00:00+00:00</updated><id>//lailashaikh.github.io/video-post</id><content type="html" xml:base="//lailashaikh.github.io/video-post/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
 
 &lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
 
