@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.3">Jekyll</generator><link href="//lailashaikh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="//lailashaikh.github.io/" rel="alternate" type="text/html" /><updated>2016-04-27T19:30:55+00:00</updated><id>//lailashaikh.github.io/</id><title>Laila Shaikh</title><subtitle>web developer, Programmer</subtitle><entry><title>Example of Services in Angular Javascript</title><link href="//lailashaikh.github.io/Services/" rel="alternate" type="text/html" title="Example of Services in Angular Javascript" /><published>2016-04-27T00:00:00+00:00</published><updated>2016-04-27T00:00:00+00:00</updated><id>//lailashaikh.github.io/Services</id><content type="html" xml:base="//lailashaikh.github.io/Services/">&lt;p&gt;&lt;strong&gt;Services provide a way to make the data global around the app, share data, and functionality . The services we create are singletons that can be injected into controllers and other services.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.3">Jekyll</generator><link href="//lailashaikh.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="//lailashaikh.github.io/" rel="alternate" type="text/html" /><updated>2017-01-19T23:09:18+00:00</updated><id>//lailashaikh.github.io/</id><title>Laila Shaikh</title><subtitle>web developer, Programmer</subtitle><entry><title>Example of Services in Angular Javascript</title><link href="//lailashaikh.github.io/Services/" rel="alternate" type="text/html" title="Example of Services in Angular Javascript" /><published>2016-04-27T00:00:00+00:00</published><updated>2016-04-27T00:00:00+00:00</updated><id>//lailashaikh.github.io/Services</id><content type="html" xml:base="//lailashaikh.github.io/Services/">&lt;p&gt;&lt;strong&gt;Services provide a way to make the data global around the app, share data, and functionality . The services we create are singletons that can be injected into controllers and other services.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;After working with angular Javascipt, I discovered that:&lt;/p&gt;
 
@@ -86,7 +86,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;whatever you insert into the username field that should appear in this page&lt;/li&gt;
-  &lt;li&gt;this div will be directed to the ChatControllerrrrrrrrrrrrrrrrr&lt;/li&gt;
+  &lt;li&gt;this div will be directed to the ChatController&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;//lailashaikh.github.io/assets/img/LoginApproved.PNG&quot; alt=&quot;Unclean shutdown detected&quot; /&gt;&lt;/p&gt;
@@ -148,7 +148,7 @@
   &lt;li&gt;In the first Controller that is the loginController, We are grabbing the username the user inserts in the login Page&lt;/li&gt;
   &lt;li&gt;storing the value of that username in to the variable we have declared in the service to make the value global&lt;/li&gt;
   &lt;li&gt;Using that value that we stored in the service, we will use it in another controller and ultimately in another view.&lt;/li&gt;
-&lt;/ul&gt;</content><summary>MathJax Example for Moon Jekyll Theme.</summary></entry><entry><title>Resolving mongo error</title><link href="//lailashaikh.github.io/mongo-error/" rel="alternate" type="text/html" title="Resolving mongo error" /><published>2016-04-26T00:00:00+00:00</published><updated>2016-04-26T00:00:00+00:00</updated><id>//lailashaikh.github.io/mongo-error</id><content type="html" xml:base="//lailashaikh.github.io/mongo-error/">&lt;p&gt;&lt;strong&gt;While working on mongodb, most of the times I came through an error while starting the server by using the command:&lt;/strong&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><summary>How to use services in Angular Javascript.</summary></entry><entry><title>Resolving mongo error</title><link href="//lailashaikh.github.io/mongo-error/" rel="alternate" type="text/html" title="Resolving mongo error" /><published>2016-04-26T00:00:00+00:00</published><updated>2016-04-26T00:00:00+00:00</updated><id>//lailashaikh.github.io/mongo-error</id><content type="html" xml:base="//lailashaikh.github.io/mongo-error/">&lt;p&gt;&lt;strong&gt;While working on mongodb, most of the times I came through an error while starting the server by using the command:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;       ./mongod
 &lt;/code&gt;&lt;/pre&gt;
