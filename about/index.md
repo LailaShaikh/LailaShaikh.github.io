@@ -9,4 +9,4 @@ date: 2016-03-21
 **I am a junior1111, majoring in Computer Science at the University of Mary Washington.**
 **Basically, I belong to Pakistan and  have joined this college as a transfer student. Transferring from Mehran University of Engineering and Technology, Pakistan  to University of Mary Washington, USA has been quite an exciting and challenging journey for me.**
 **So far I have leagrnt C++, JAVA , Python , Flask and some other languages.**
-**In this blog, I will outline some of the  cool things I learnt in the class of CPSC 350(Applications of databases)**
+**In this blog, I will outlinegggggg some of the  cool things I learnt in the class of CPSC 350(Applications of databases)**
