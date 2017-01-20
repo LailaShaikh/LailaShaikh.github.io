@@ -6,7 +6,7 @@ date: 2016-03-21
 ---
     
 ![Unclean shutdown detected](//lailashaikh.github.io/assets/img/lailaformated.jpg)
-(//lailashaikh.github.io/assets/LailaResume11.pdf)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/LailaResume11.pdf)
 
 					
 					
