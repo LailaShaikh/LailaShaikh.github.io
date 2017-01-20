@@ -3,6 +3,7 @@ title:              Laila Shaikh
 bio:                'web developer, Programmer'
 description:        'web developer, Programmer'
 reading_time:       true
+
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
@@ -12,6 +13,7 @@ host:               0.0.0.0
 PORT:               8080
 # Jekyll
 permalink:          /:title/
+future:             true
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
