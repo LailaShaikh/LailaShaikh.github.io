@@ -8,7 +8,8 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 locale:             en_US
 url:                //lailashaikh.github.io
-
+host:               0.0.0.0              
+PORT:               8080
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown

@@ -19,7 +19,7 @@ excerpt: "server crash in mongo"
 After researching on internet I came with the reason and solution of it:
 
 **Reason**
-Its because you did not the shutdown the server properly, therefore it got crashed
+111111111Its because you did not the shutdown the server properly, therefore it got crashed
 
 **Solution**
 The most easiest way to repair is to look for the lockfile which would have been created resultantly, manually delete it. 
