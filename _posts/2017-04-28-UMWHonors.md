@@ -7,8 +7,8 @@ project: true
 ---
 ![Unclean shutdown detected](//lailashaikh.github.io/assets/img/WelcomePage.png)
 ![Unclean shutdown detected](//lailashaikh.github.io/assets/img/LoginHonors.png)
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/StudentDash.png)
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/DownloadChecksheet.png)
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/PdfChecksheet.png)
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/Admin_dash.jpeg)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/UMWHonorsScreenShots/StudentDash.png)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/UMWHonorsScreenShots/DownloadChecksheet.png)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/UMWHonorsScreenShots/PdfChecksheet.png)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/UMWHonorsScreenShots/Admin_dash.jpeg)
 
