@@ -1,6 +1,7 @@
 # Site navigation links
-
+# - title: post
+# - url: /posts/
 - title: Projects
   url: /projects/
-- title: Resume
-  url: /assets/LailaResumeUpdated1.pdf
+# - title: Resume
+#   url: /assets/LailaResumeUpdated1.pdf
