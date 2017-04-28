@@ -6,7 +6,7 @@ excerpt: "User Interface Design of UMW honors Progam website."
 project: true
 ---
 
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/Register.PNG)
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/Rename.PNG)
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/RoomVerification.PNG)
-![Unclean shutdown detected](//lailashaikh.github.io/assets/img/SearchMessages.PNG)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/Register.png)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/Rename.png)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/RoomVerification.png)
+![Unclean shutdown detected](//lailashaikh.github.io/assets/img/SearchMessages.png)
