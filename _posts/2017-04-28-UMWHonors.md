@@ -13,7 +13,7 @@ The goal of this project was to create a UMW Honors Program Application. The req
 
 
 
-**Learning **
+**Learning**
 
 
 It was a group project in which my contribution made me learn a lot of new things. I learnt to work to MySQL which we used because we were to deploy our website on domains of one's own. I learnt to work with a lot of new packages of Flask including WTForms, itsdangerous, pdfkit, and Flask-Mail. 
